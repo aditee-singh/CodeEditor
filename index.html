@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="css/style.css">
         <title>Code-Editor</title>
     </head>
     <body>
-        <div class="code-area">
-            <textarea id="HtmlCode" placeholder="HTML Code goes here" oninput="showPreview()"></textarea>
-            <textarea id="CssCode" placeholder="CSS Code goes here" oninput="showPreview()"></textarea>
-            <textarea id="JsCode" placeholder="JavaScript Code goes here" oninput="showPreview()"></textarea>
+        <div id="header">
+            <h1>Code-Editor</h1>
+            <h3>Real-time editor for Frontend Development</h3>
         </div>
-        <div class="preview-area">
-            <iframe id="preview-window"></iframe>
+        <div class="code">
+            <div class="code-area">
+                <textarea id="HtmlCode" placeholder="HTML Code goes here" oninput="showPreview()"></textarea>
+                <textarea id="CssCode" placeholder="CSS Code goes here" oninput="showPreview()"></textarea>
+                <textarea id="JsCode" placeholder="JavaScript Code goes here" oninput="showPreview()"></textarea>
+            </div>
+            <div class="preview-area">
+                <iframe id="preview-window"></iframe>
+            </div>
         </div>
         <script src="js/script.js"></script>
     </body>
