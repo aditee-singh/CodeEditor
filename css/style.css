@@ -20,7 +20,7 @@ body {
 }
 .code{
 	display: flex;
-	margin-top:1%;
+	margin-top:2%;
 }
 .code-area{
     display: flex;
@@ -28,7 +28,7 @@ body {
     height: 100vh;
     width: 40%;
     margin-right: 12px;
-    
+
 }
 .code-area textarea{
     flex:1;
